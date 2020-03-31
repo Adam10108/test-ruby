@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html>
   <head>
     <title>TestRubyApp</title>
@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <%= link_to 'home' , root_path %>
+    <%= link_to 'about' , about_path %>
+    <%= link_to 'new courses' , courses_new_path %>
     <%= yield %>
   </body>
 </html>
